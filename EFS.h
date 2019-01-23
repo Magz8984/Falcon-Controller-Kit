@@ -13,6 +13,10 @@
 #define RIGHT_MIN 315;
 #define RIGHT_MAX 44;
 
+
+int16_t findReminder(int16_t sentRpms){
+  return MAX_RPMS - sentRpms;
+}
 // typedef struct Direction{
 //
 // }Direction;
