@@ -12,6 +12,7 @@ typedef struct Plant{
 }Plant;
 
 Plant *plant;
+float rate;
 enum speeds{HIGH,LOW};
 int commandVariable=0;
 
@@ -19,6 +20,7 @@ int commandVariable=0;
 void init() {
 //init code
 plant=(Plant*) malloc(sizeof(Plant));
+rate=1000;
 }
 
 void freeMem(){
