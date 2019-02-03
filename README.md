@@ -5,5 +5,8 @@ This is a set of code segments to control falcon drones. The controller kit will
 ## Components
 
 1. PCB Board 10cm x 15cm x 1.6mm.
-2. ESP8266 Node MCU micro controller.
+2. ESP8266 Node MCU micro controller. :heart_eyes:
 3. MPU6050 6axis Motion Sensor
+
+## Languages
+C/C++ For micro controller instructions. :wink:
