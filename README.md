@@ -10,3 +10,16 @@ This is a set of code segments to control falcon drones. The controller kit will
 
 ## Languages
 C/C++ For micro controller instructions. :wink:
+
+
+#Features
+
+* **Detect orientation**
+  * MPU6050 Accelerometer to detect orientation
+
+
+## Challenges
+
+1. Writing ES code is challenging and requires a lot of research.
+2. Printing PCB board.
+3. Design and modularity of the  circuitry.
