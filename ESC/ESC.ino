@@ -3,11 +3,16 @@
 
 
 void setup() {
-  // put your setup code here, to run once:
+  Flight *flight;
+  flight=(Flight*) malloc(sizeof(Flight));
+
+  flight->front_left=(Servo*) malloc(sizeof(Servo));
+  flight->front_right=(Servo*) malloc(sizeof(Servo));
+  flight->back_left=(Servo*) malloc(sizeof(Servo));
+  flight->back_right=(Servo*) malloc(sizeof(Servo));
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
 }
