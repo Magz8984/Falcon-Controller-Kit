@@ -21,4 +21,15 @@ typedef struct Flight{
   Servo *front_right;
   Servo *back_left;
   Servo *back_right;
+  int (*set_rotations)(Flight *flight,int); //struct functions to set rpms;
 }Flight;
+
+int setRotations(Flight *flight,int rotations); // Servo Controls
+
+int setRotations(Flight *flight,int rotations){
+  flight->front_left->writeMicroseconds(rotations);
+  flight->front_right->writeMicroseconds(rotations);
+  flight->back_left->writeMicroseconds(rotations);
+  flight->back_right->writeMicroseconds(rotations);
+  return 0;
+}

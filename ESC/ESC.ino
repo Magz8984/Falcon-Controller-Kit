@@ -5,14 +5,15 @@
 void setup() {
   Flight *flight;
   flight=(Flight*) malloc(sizeof(Flight));
-
+ 
   flight->front_left=(Servo*) malloc(sizeof(Servo));
   flight->front_right=(Servo*) malloc(sizeof(Servo));
   flight->back_left=(Servo*) malloc(sizeof(Servo));
   flight->back_right=(Servo*) malloc(sizeof(Servo));
+  flight->set_rotations=setRotations;
 
 }
 
 void loop() {
-
+  
 }
