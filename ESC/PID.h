@@ -15,7 +15,7 @@ typedef struct Plant{
 
 Plant *plant;
 float rate;
-enum speeds{HIGH,LOW};
+enum speeds{HIGH,LOW}speed;
 int commandVariable=0;
 
 
