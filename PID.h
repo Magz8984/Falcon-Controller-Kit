@@ -4,6 +4,8 @@ void init_command_variable(int command_variable);
 void errorTerm(int  control_variable);
 void init();
 void freeMem();
+int controller(int error_term);
+
 
 typedef struct Plant{
   int ac_signal;
@@ -38,3 +40,7 @@ void init_command_variable(int command_variable){
 
 
 //Controller and Rates
+int controller(int error_term){
+
+ return 1;
+}
