@@ -41,6 +41,7 @@ void init_command_variable(int command_variable){
 
 //Controller and Rates
 int controller(int error_term){
+ //delay();
 
  return 1;
 }
