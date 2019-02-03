@@ -12,7 +12,7 @@ This is a set of code segments to control falcon drones. The controller kit will
 C/C++ For micro controller instructions. :wink:
 
 
-#Features
+# Features
 
 * **Detect orientation**
   * MPU6050 Accelerometer to detect orientation
