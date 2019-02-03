@@ -1,6 +1,7 @@
 // This is  script converts angles into motions based angle and strength
 // Angle determines yaw ,roll and pitch. Strength determines how much roll or pitch
 #include <math.h>
+#include <Servo.h>
 
 #define MAX_RPMS 2000  // Dependent on esc calib values
 #define MIN_RPMS 1050
@@ -13,3 +14,11 @@
 #define LEFT_MAX 224
 #define RIGHT_MIN 315
 #define RIGHT_MAX 44
+
+
+typedef struct Flight{
+  Servo *front_left;
+  Servo *front_right;
+  Servo *back_left;
+  Servo *back_right;
+}Flight;
