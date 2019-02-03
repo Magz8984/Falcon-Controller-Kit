@@ -7,6 +7,7 @@ This is a set of code segments to control falcon drones. The controller kit will
 1. PCB Board 10cm x 15cm x 1.6mm.
 2. ESP8266 Node MCU micro controller. :heart_eyes:
 3. MPU6050 6axis Motion Sensor
+4. BMP180 Barometric/Temperature/Altitude Sensor
 
 ## Languages
 C/C++ For micro controller instructions. :wink:
@@ -16,6 +17,11 @@ C/C++ For micro controller instructions. :wink:
 
 * **Detect orientation**
   * MPU6050 Accelerometer to detect orientation
+  * MPU6050 Gyroscope to determine orientation
+* **Detect Temperature**
+  * MPU6050 to determine temperature
+* **Detect Height and Air Pressure**
+  * Converts air pressure to altitude values.
 
 
 ## Challenges
