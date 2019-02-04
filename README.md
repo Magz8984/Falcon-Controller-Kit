@@ -16,7 +16,7 @@ C/C++ For micro controller instructions. :wink:
 # Features
 
 * **Detect orientation**
-  * MPU6050 Accelerometer to detect orientation
+  * MPU6050 Accelerometer to detect linear acceleration
   * MPU6050 Gyroscope to determine orientation
 * **Detect Temperature**
   * MPU6050 to determine temperature
